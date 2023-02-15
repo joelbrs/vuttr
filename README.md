@@ -33,17 +33,37 @@ Queremos avaliar sua capacidade de desenvolver e documentar um front-end para um
 
 ![Home](https://user-images.githubusercontent.com/97459334/218894889-f70a0eae-29fc-4b27-adb8-5736398cdfce.png)
 
+--------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/97459334/218898438-40765cc4-b99e-4462-a42a-9f7687115793.png)
+
+
 ## 2: O usuário deve poder adicionar uma nova ferramenta
 
 ![add-tool](https://user-images.githubusercontent.com/97459334/218894966-49cba265-73fc-4812-bd35-41d58601e878.png)
+
+-----------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/97459334/218898709-38d36142-e261-4ae9-b6c6-fe77e5dec2e3.png)
+
 
 ## 3: O usuário deve poder remover uma ferramenta
 
 ![remove-tool](https://user-images.githubusercontent.com/97459334/218895020-4d3684ed-97c6-46f6-b48e-81ab28b90d4f.png)
 
+--------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/97459334/218898930-467ddd28-43c3-448a-8677-944c75a21fb1.png)
+
+
 ## 4: O usuário deve poder buscar ferramentas dinamicamente (global ou utilizando apenas tags)
 
 ![search](https://user-images.githubusercontent.com/97459334/218895076-f6f64df0-f0be-4ed3-b596-684d4b40aff1.png)
+
+----------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/97459334/218899045-55fb11ea-1a8b-45d6-a521-9727cfd440e8.png)
+
 
 ## Critérios de Aceitação
 
