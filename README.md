@@ -1,68 +1,54 @@
-# vuttr
+# Front-end
 
-## Build Setup
+Sua tarefa é construir um front-end para a aplicação VUTTR (Very Useful Tools to Remember). A aplicação é um simples repositório para gerenciar ferramentas com seus respectivos nomes, links, descrições e tags.
 
-```bash
-# install dependencies
-$ npm install
+O front-end deve ser construído utilizando qualquer framework JavaScript de sua preferência (React, Vue.js, Angular, etc...), utilizando [este style guide](https://xd.adobe.com/spec/6a82c840-1813-4b23-6919-2ac91409d104-1cb3/) e seguindo os wireframes apresentados abaixo.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## O que será avaliado
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+Queremos avaliar sua capacidade de desenvolver e documentar um front-end para uma aplicação com back-end pronto. Serão avaliados:
 
-# generate static project
-$ npm run generate
-```
+- Código bem escrito e limpo;
+- Quais ferramentas foram usadas, como e por quê;
+- Seu conhecimento em JavaScript, HTML e CSS;
+- Sua capacidade de se comprometer com o que foi fornecido (wireframe, styleguide);
+- Sua capacidade de documentação da sua parte da aplicação.
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## O mínimo necessário
 
-## Special Directories
+- As telas seguindo os wireframes a seguir e utilizando a API disponibilizada ao fim deste documento;
+- [README.md](http://readme.md) contendo informações básicas do projeto e como executá-lo.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Bônus
 
-### `assets`
+- Testes de front-end;
+- Uso de ferramentas externas que facilitem o seu trabalho;
+- Cuidados especiais com otimização, SEO, entre outros;
+- Conteinerização da aplicação;
+- Sugestões sobre o challenge embasadas em alguma argumentação.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+# User Stories e wireframes
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## 1: O usuário deve poder ver a lista de todas as ferramentas cadastradas
 
-### `components`
+![Home](https://user-images.githubusercontent.com/97459334/218894889-f70a0eae-29fc-4b27-adb8-5736398cdfce.png)
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+## 2: O usuário deve poder adicionar uma nova ferramenta
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+![add-tool](https://user-images.githubusercontent.com/97459334/218894966-49cba265-73fc-4812-bd35-41d58601e878.png)
 
-### `layouts`
+## 3: O usuário deve poder remover uma ferramenta
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+![remove-tool](https://user-images.githubusercontent.com/97459334/218895020-4d3684ed-97c6-46f6-b48e-81ab28b90d4f.png)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+## 4: O usuário deve poder buscar ferramentas dinamicamente (global ou utilizando apenas tags)
 
-### `pages`
+![search](https://user-images.githubusercontent.com/97459334/218895076-f6f64df0-f0be-4ed3-b596-684d4b40aff1.png)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+## Critérios de Aceitação
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+- Deve ser usada a API disponibilizada no fim deste documento para listar, adicionar, remover e filtrar as ferramentas.
 
-### `plugins`
+# API
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+[https://gitlab.com/bossabox/challenge-fake-api/tree/master](https://gitlab.com/bossabox/challenge-fake-api/tree/master)
