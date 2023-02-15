@@ -15,11 +15,10 @@
       </template>
       <v-card>
         <v-card-title>
-          <span class="text-h5">Add new tool</span>
+          <span class="ml-3 text-h5">+Add new tool</span>
         </v-card-title>
         <v-card-text>
           <v-container>
-						<v-container>
 							<v-form>
 									<v-row dense>
 										<v-col cols="12" sm="12">
@@ -32,12 +31,6 @@
 												outlined
 											></v-text-field>
 										</v-col>
-									</v-row>
-							</v-form>
-						</v-container>
-						<v-container>
-							<v-form>
-									<v-row dense>
 										<v-col cols="12" sm="12">
 											<v-text-field
 												dense
@@ -48,11 +41,6 @@
 												outlined
 											></v-text-field>
 										</v-col>
-									</v-row>
-							</v-form>
-						</v-container>
-						<v-container>
-							<v-row dense>
 								<v-col cols="12" sm="12">
 									<v-textarea
 										outlined
@@ -62,11 +50,6 @@
 										:clearable="true"
 									></v-textarea>
 								</v-col>
-							</v-row>
-						</v-container>
-						<v-container>
-							<v-form>
-									<v-row dense>
 										<v-col cols="12" sm="12">
 											<v-text-field
 												dense
@@ -80,13 +63,13 @@
 									</v-row>
 							</v-form>
 						</v-container>
-          </v-container>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
 						outlined
             @click="addTool"
+						class="mb-2 mr-5"
           >
             Add tool
           </v-btn>
@@ -106,7 +89,7 @@ export default Vue.extend({
 				title: '' as string,
 				link: '' as string,
 				description: '' as string,
-				tags: [] as Array
+				tags: [] as Array<String>
 			},
 		}
 	},
