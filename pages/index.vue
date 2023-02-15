@@ -6,7 +6,7 @@
 			<v-row>
 				<v-container>
 					<v-form>
-						<div class="d-flex row-direction mt-8">
+						<div class="d-flex flex-row mt-8">
 							<v-row dense>
 								<v-col cols="12" :md="4" :lg="4" sm="12">
 									<v-text-field
@@ -18,6 +18,8 @@
 										:prepend-inner-icon="'mdi-magnify'"
 										outlined
 									></v-text-field>
+								</v-col>
+								<v-col>
 									<v-checkbox
 										v-model="onlyTags"
 										label="search in tags only"
@@ -45,7 +47,7 @@
 import Vue from 'vue'
 import ModalAddVue from '~/components/modal/ModalAdd.vue'
 import TheCard from '~/components/menu/TheCard.vue'
-import { deleteToolById, getListRepos, postTools } from '~/services/repos'
+import { deleteToolById, getListRepos } from '~/services/repos'
 
 export default Vue.extend({
 	data() {
